@@ -1,0 +1,77 @@
+/* 
+Welcome to your stylesheet!
+
+You know how in HTML comments are written using <!-- -->? 
+Well, guess what? In CSS they're different! :)
+In CSS, a slash and a star is used to denote a comment.
+These comments are written inside the CSS star and slash to demonstrate how it works.
+
+Your engineers will use the comments section to explain what different parts of the stylesheet means.
+ */
+
+body {
+font-family: helvetica, arial, sans serif;
+line-height: 150%;
+}
+
+
+.full-width {
+	width: 100%;
+}
+
+#policies {
+	background-color: #FFFAF0;
+	padding: 5%;
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+	font-family: georgia, garamond, serif;
+	font-size: 14px;
+	clear:both;
+}
+
+#intro-content {
+	margin-bottom: 5%;
+}
+
+#read-more-content {
+	margin-top: 5%;
+
+}
+
+#policies ol {
+	margin-bottom: 50px;
+}
+
+#page-container{
+	Width: 80%;
+	padding: 0 10% 10% 10%;
+}
+
+.button {
+	background-color: #ff530d;
+	padding: 20px 40px 20px 40px;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	letter-spacing: 2px;
+	cursor:pointer;
+	box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #ec4501;
+	padding: 20px 40px 20px 40px;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	letter-spacing: 2px;
+	cursor:pointer;
+	text-align: center;
+
+}

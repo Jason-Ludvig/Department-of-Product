@@ -1,0 +1,163 @@
+/*-This is a finished stylesheet-*/
+
+/*----------Global styles----------*/
+
+
+#passana-container h1 {
+font-size: 48px;
+font-weight: 400;
+}
+
+#passana-container h2 {
+	font-size: 36px;
+	font-weight: 400;
+}
+
+
+h1, p, body {
+font-family: 'Hind';
+}
+
+
+p {
+line-height: normal;
+
+}
+
+
+/*----------Helper classes. These classes will be added to <div> tags and other elements.----------*/
+
+.center {
+	text-align: center;
+}
+
+
+.underline {
+	text-decoration: underline;
+}
+
+
+.button {
+	background-color: #ff530d;
+	padding: 20px 40px 20px 40px;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	letter-spacing: 2px;
+	cursor:pointer;
+	box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+}
+
+.button:hover {
+	background-color: #ec4501;
+	padding: 20px 40px 20px 40px;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	letter-spacing: 2px;
+	cursor:pointer;
+}
+
+
+/*----------Header section----------*/
+
+.center-img{
+	display: block;
+	margin: 0 auto;
+}
+
+
+nav li {
+display: inline;
+list-style-type: none;
+padding-right: 3%;
+font-size: 14px;
+}
+
+nav li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	color: #b7b7b7;
+	letter-spacing: 2px;
+}
+
+nav {
+padding: 0 5% 0 5%;
+margin-top: 3%;
+}
+
+#header {
+	padding: 5% 0 2% 0;
+}
+
+
+/*----------Hero section----------*/
+
+
+#hero-section {
+background-image: url('hero-background.jpg');
+background-size: cover;
+padding: 15%;
+text-align: center;
+}
+
+#hero-header {
+color: white;
+text-align: center;
+background: rgba(96, 179, 73, 0.48);
+padding: 2%;
+margin: 5% 10% 5% 10%;
+} 
+
+
+#hero-header-background {
+background: rgba(96, 179, 73, 0.48);
+}
+/*----------Product explanation ----------*/
+
+
+#product-explanation {
+	margin: auto;
+	width: 50%;
+	padding: 15% 0 15% 0;
+}
+
+#product-explanation-text{
+	margin-bottom: 100px;
+}
+
+h2 {
+	margin-bottom: 5%;
+}
+
+/*----------How it works----------*/
+
+#how-it-works {
+background: #d5df44; /* Old browsers */
+background: -moz-linear-gradient(left,  #d5df44 0%, #60b349 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #d5df44 0%,#60b349 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #d5df44 0%,#60b349 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5df44', endColorstr='#60b349',GradientType=1 ); /* IE6-9 */
+padding: 10%;
+}
+
+#how-it-works h2{
+	color:white;
+}
+
+.blurb {
+	float: left;
+	width: 28%;
+	color: white;
+	padding: 2%;
+}
+
+#blurb-columns {
+	margin-bottom: 30%;
+}
+
